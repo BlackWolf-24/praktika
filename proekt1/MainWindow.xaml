@@ -5,8 +5,23 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:proekt1"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="450" Width="800" ResizeMode="NoResize">
     <Grid>
-        
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="83*"/>
+            <ColumnDefinition Width="5*"/>
+        </Grid.ColumnDefinitions>
+        <TextBlock HorizontalAlignment="Left" Margin="262,242,0,0" TextWrapping="Wrap" Text="Пароль" VerticalAlignment="Top" FontSize="15"/>
+        <TextBlock HorizontalAlignment="Left" Margin="262,280,0,0" TextWrapping="Wrap" Text="Код" VerticalAlignment="Top" FontSize="15"/>
+        <TextBox HorizontalAlignment="Left" Height="24" Margin="331,213,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="165"/>
+        <TextBox HorizontalAlignment="Left" Height="24" Margin="331,242,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="165"/>
+        <TextBox HorizontalAlignment="Left" Height="20" Margin="331,280,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBlock HorizontalAlignment="Left" Margin="103,55,0,0" TextWrapping="Wrap" Text="Телеком Нева Связь" VerticalAlignment="Top" Width="303" Height="24" FontSize="20"/>
+        <TextBlock HorizontalAlignment="Left" Margin="262,213,0,0" TextWrapping="Wrap" Text="Номер" VerticalAlignment="Top" Height="23" Width="63" FontSize="15"/>
+        <Button Content="Отмена" HorizontalAlignment="Left" Margin="331,352,0,0" VerticalAlignment="Top" Width="90" Height="25"/>
+        <Button Content="Вход" HorizontalAlignment="Left" Margin="451,352,0,0" VerticalAlignment="Top" Width="90" Height="25"/>
+        <Image Source="C:\Users\Admin\source\repos\proekt1\proekt1\images\logo.jpg" HorizontalAlignment="Left" Height="104" Margin="669,0,-29,0" VerticalAlignment="Top" Width="152" Grid.ColumnSpan="2"/>
+        <Image Source="C:\Users\Admin\source\repos\proekt1\proekt1\images\update.jpg" HorizontalAlignment="Left" Height="31" Margin="469,280,0,0" VerticalAlignment="Top" Width="27"/>
+
     </Grid>
 </Window>
