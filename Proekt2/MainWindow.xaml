@@ -7,6 +7,12 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        
+        <Menu HorizontalAlignment="Left" Height="80" Margin="22,10,0,0" VerticalAlignment="Top" Width="80"/>
+        <Menu HorizontalAlignment="Left" Height="33" Margin="22,171,0,0" VerticalAlignment="Top" Width="80"/>
+        <Menu HorizontalAlignment="Left" Height="33" Margin="22,95,0,0" VerticalAlignment="Top" Width="80"/>
+        <Menu HorizontalAlignment="Left" Height="33" Margin="22,247,0,0" VerticalAlignment="Top" Width="80"/>
+        <Menu HorizontalAlignment="Left" Height="33" Margin="22,133,0,0" VerticalAlignment="Top" Width="80"/>
+        <Menu HorizontalAlignment="Left" Height="33" Margin="22,209,0,0" VerticalAlignment="Top" Width="80"/>
+
     </Grid>
 </Window>
